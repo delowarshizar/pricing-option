@@ -33,7 +33,7 @@ const NavBar = () => {
   const [open, setOpen] = useState(false);
   return (
     <nav
-      className="flex justify-between mx-5
+      className="flex justify-between mx-5 mt-5
         "
     >
       <span className="flex gap-3" onClick={() => setOpen(!open)}>
